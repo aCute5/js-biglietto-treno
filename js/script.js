@@ -1,8 +1,8 @@
 const km = prompt("Quanti KM devi fare?");
 const age = prompt("Quanti anni hai?");
 const kmPrice = ("Il prezzo finale è €" , km * 0.21);
-const kmPriceunder18 = ("Congratulazioni! Hai ottenuto lo sconto del 20%: €", kmPrice * 0.80);
-const kmPriceover60 =  ("Congratulazioni! Hai ottenuto lo sconto del 20%: €", kmPrice * 0.60);
+const kmPriceunder18 = ("Congratulazioni! Hai ottenuto lo sconto del 20%: €", kmPrice * 0.20);
+const kmPriceover60 =  ("Congratulazioni! Hai ottenuto lo sconto del 20%: €", kmPrice * 0.40);
 if (age <= "18"){
     console.log("Congratulazioni! Hai ottenuto lo sconto del 20% dedicato ai giovani:");
     console.log("€",kmPriceunder18 .toFixed (2));
